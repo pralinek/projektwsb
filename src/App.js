@@ -3,6 +3,7 @@ import Home from "./components/Home"
 import About from "./components/About"
 import Download from "./components/Download"
 import Navi from "./components/Navi"
+import Header from "./components/Header"
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,6 +17,7 @@ class App extends Component {
   render(){
     return(
    <div className="App">
+     <Header />
    <Router>
   <Navi />
    <Switch>
