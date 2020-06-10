@@ -4,6 +4,8 @@ import About from "./components/About"
 import Download from "./components/Download"
 import Navi from "./components/Navi"
 import Header from "./components/Header"
+import Sbackground from "./Styles"
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,7 +18,7 @@ import {
 class App extends Component {
   render(){
     return(
-   <div className="App">
+   <div className="App" style={Sbackground}>
      <Header />
    <Router>
   <Navi />
