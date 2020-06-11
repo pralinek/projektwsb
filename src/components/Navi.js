@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+import { NavLink, NavNavLink } from "react-router-dom"
 
 
 const Navi=() => {
@@ -7,22 +7,22 @@ const Navi=() => {
         <div>
             <nav className="nav-wrapper blue-grey darken1
             hide-on-med-and-up transparent">
-            <Link className="brand-logo " to="/">CyberPaste</Link>
+            <NavLink className="brand-logo " to="/">CyberPaste</NavLink>
             </nav>
             <nav className="nav-wrapper yellow darken-2">
               <div className="container">
-              <Link className="brand-logo hide-on-small-and-down left" to="/">CyberPaste</Link>
+              <NavLink className="brand-logo hide-on-small-and-down left" to="/">CyberPaste</NavLink>
           <ul className="right">
             <li>
-              <Link to="/">Home</Link>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <Link to="/download" class="btn-floating  teal accent-4 z-depth-0">
+              <NavLink to="/download" className="btn-floating  teal accent-4 z-depth-0">
                 <i className="material-icons">cloud_download</i>
-              </Link>
+              </NavLink>
             </li>
           </ul>
           </div>
