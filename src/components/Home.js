@@ -4,9 +4,7 @@ import Card from "./Card"
 const Home =() => {
     return (
         <div className="container row">
-             <a id="scale-demo" href="#!" class="btn-floating btn-large scale-transition">
-    <i class="material-icons">add</i>
-  </a>
+  
 
 
   <a id="scale-demo" href="#!" class="btn-floating btn-large scale-transition scale-out">
