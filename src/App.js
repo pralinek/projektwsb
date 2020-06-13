@@ -4,7 +4,9 @@ import About from "./components/About"
 import Download from "./components/Download"
 import Navi from "./components/Navi"
 import Header from "./components/Header"
-import Sbackground from "./Styles"
+
+import Footer from "./components/Footer"
+import "./App.css"
 
 import {
   BrowserRouter as Router,
@@ -16,25 +18,46 @@ import {
 
 
 class App extends Component {
+  state={
+    clipStorage:[]
+  } 
+  
+  onClickCopy=(x)=>{
+    
+    this.setState({
+      clipStorage: x.clipStorage
+    })
+    console.log(this.state)
+    
+    
+   }
+
   render(){
     return(
-   <div className="App" style={Sbackground}>
-     <Header />
+     
+     
+    <div>
+      <div className="page-container">
+        <div className="content-wrap">
    <Router>
+  <Header />
   <Navi />
    <Switch>
           <Route exact path="/">
             <Home />
           </Route>
           <Route path="/about">
-            <About />
+            <About onClickCopy={this.onClickCopy}/>
           </Route>
           <Route path="/download">
             <Download />
           </Route>
         </Switch>
-
    </Router>
+   </div>
+   
+   <Footer />
+   </div>
    </div>
     )
 

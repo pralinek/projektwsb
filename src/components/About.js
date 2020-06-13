@@ -2,8 +2,7 @@ import React from "react";
 import Storage from "./Storage"
 class TextArea extends React.Component {
   state = {
-    clipStorage: [],
-    index: 0,
+    clipStorage: []
   }
 
 
@@ -12,16 +11,16 @@ class TextArea extends React.Component {
   onClickCopy=()=> {
     var text = "";
     let stor = [...this.state.clipStorage]
-    let x = this.state.index
+   
     if (window.getSelection) {
       text = window.getSelection().toString();
     }
     if (text !== "") {
     stor.push(text)
     this.setState({
-      clipStorage: stor,
-      index: x+1
+      clipStorage: stor
     })
+    this.props.onClickCopy(this.state)
     
     } else {
       return null;

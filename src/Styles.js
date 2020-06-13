@@ -1,5 +1,7 @@
 import Background from "./media/background.jpg"
 
+
+
 const Sbackground = {
     backgroundImage: `url(${Background})`,
     backgroundSize: "cover",
@@ -7,4 +9,7 @@ const Sbackground = {
     minHeight: "1000px"
   };
 
-  export default Sbackground
+
+
+
+export {Sbackground};

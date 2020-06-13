@@ -5,14 +5,14 @@ const Navi = () => {
   return (
     <div>
       <nav
-        className="nav-wrapper blue-grey darken1
+        className="nav-wrapper 
             hide-on-med-and-up transparent"
       >
         <NavLink className="brand-logo " to="/">
           CyberPaste
         </NavLink>
       </nav>
-      <nav className="nav-wrapper yellow darken-2">
+      <nav className="nav-wrapper blue-grey darken-3">
         <div className="container">
           <NavLink className="brand-logo hide-on-small-and-down left" to="/">
             CyberPaste

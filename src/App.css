@@ -1,0 +1,18 @@
+.page-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+    background-image: linear-gradient(to bottom left,#43cea2, #185a9d);
+    
+    background-size: "cover";
+    background-position: "center";
+    
+    
+
+}
+
+.content-wrap{
+    flex:1;
+}
+
