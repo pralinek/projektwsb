@@ -1,0 +1,17 @@
+   
+
+img{
+    height: 50px;
+    width: auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right,#141e30,#243b55);
+}
+.fixed{
+    z-index: 10;
+    position: fixed;
+    background-image: linear-gradient(to bottom left,#141e30, #243b55); 
+}

@@ -1,5 +1,11 @@
-.outer-box{
-    height: 100px;
-    width: 100px;
-    background-color: white;
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right,#141e30,#243b55);
+}
+img{
+    width: 180px;
+    height: auto;
+    margin: 30px
 }

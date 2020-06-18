@@ -1,22 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import Logo from "../media/logo.png"
+import "./Navi.css"
 const Navi = () => {
   return (
-    <div>
-      <nav
-        className="nav-wrapper 
-            hide-on-med-and-up transparent"
-      >
-        <NavLink className="brand-logo " to="/">
-          CyberPaste
-        </NavLink>
-      </nav>
-      <nav className="nav-wrapper blue-grey darken-3">
+    <div class="navbar-fixed">
+      <nav className="fixed">
         <div className="container">
-          <NavLink className="brand-logo hide-on-small-and-down left" to="/">
-            CyberPaste
-          </NavLink>
+          
+
+          <img src={Logo} alt="Paper unicorn" className="hide-on-small-only"/>
+          
           <ul className="right">
             <li>
               <NavLink to="/">Home</NavLink>
