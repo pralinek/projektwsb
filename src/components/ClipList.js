@@ -19,7 +19,11 @@ const ClipList = () => {
   };
 
   const List = clipList.map((x) => {
-    return <p>{x.clip}{x.id}</p>;
+    return (
+    <div key={x.id}>
+      <p>{x.clip}</p>
+    </div>
+    )
   });
   
   

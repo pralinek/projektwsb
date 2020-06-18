@@ -5,11 +5,7 @@ export const ClipContext = createContext()
 
 export class ClipContextProvider extends Component {
     state={
-        clipList: [
-            {id: 0, clip: "test"},
-            {id: 1, clip: "test1"},
-            {id: 2, clip: "test2"}
-        ]
+        clipList: []
     }
 
    render(){
