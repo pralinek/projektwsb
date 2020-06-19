@@ -8,9 +8,9 @@ const Navi = () => {
       <nav className="fixed">
         <div className="container">
           
-
-          <img src={Logo} alt="Paper unicorn" className="hide-on-small-only"/>
-          
+          <NavLink  to="/">
+          <img src={Logo} alt="Paper unicorn" />
+          </NavLink>
           <ul className="right">
             <li>
               <NavLink to="/">Home</NavLink>
@@ -21,9 +21,8 @@ const Navi = () => {
             <li>
               <NavLink
                 to="/download"
-                className="btn-floating  teal accent-4 z-depth-0"
               >
-                <i className="material-icons">cloud_download</i>
+                Download
               </NavLink>
             </li>
           </ul>

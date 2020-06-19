@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="row">
               <div className="col l6 s12">
                 <h5 className="white-text">About me</h5>
-                <p className="grey-text text-lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iste, delectus ipsum reiciendis laborum veniam eaque maiores dolores provident numquam?</p>
+                <p className="grey-text text-lighten-4">I am self-learned solutions developer. Always chasing simpler solution that the simplest we can think about.</p>
               </div>
               <div className="col l4 offset-l2 s12">
                 <h5 className="white-text">Links</h5>
@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="footer-copyright">
             <div className="container">
             &copy;{new Date().getFullYear()} CyberPaste | All rights reserved
-            <a className="grey-text text-lighten-4 right" href="#">More Links</a>
+            <a className="grey-text text-lighten-4 right" href="#">Tomasz Olech</a>
             </div>
           </div>
         </footer>
