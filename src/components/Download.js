@@ -28,7 +28,7 @@ const Download = () => {
             <br />
             <br />
             <br />
-            <h5>Be areful</h5>
+            <h5>Be careful</h5>
             <h5>usage is addictive!</h5>
           </div>
         </div>

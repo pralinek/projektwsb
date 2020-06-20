@@ -15,3 +15,7 @@ header{
     position: fixed;
     background-image: linear-gradient(to bottom left,#141e30, #243b55); 
 }
+.notfixed{
+    background-image: linear-gradient(to bottom left,#141e30, #243b55); 
+}
+

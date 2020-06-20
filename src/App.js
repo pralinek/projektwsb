@@ -4,6 +4,7 @@ import ClipList from "./components/ClipList";
 import Download from "./components/Download";
 import Navi from "./components/Navi";
 import Footer from "./components/Footer";
+import Instructions from "./components/Instructions"
 import "./App.css";
 import ClipContextProvider from "./contexts/ClipContext"
 
@@ -33,9 +34,13 @@ class App extends Component {
                   <Route path="/about">
                     <ClipList/>
                   </Route>
+                  <Route path="/instructions">
+                    <Instructions />
+                  </Route>
                   <Route path="/download">
                     <Download />
                   </Route>
+
                 </Switch>
               </ClipContextProvider>  
               

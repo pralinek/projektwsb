@@ -5,7 +5,7 @@ export const ClipContext = createContext()
 
 export class ClipContextProvider extends Component {
     state={
-        clipList: []
+        clipList: [{clip: "highlight the text...", id:1 },{clip: "then copy something...", id:2 },{clip: "I will appear...", id:3},{clip: "Here:)", id:4  }]
     }
 
    render(){
