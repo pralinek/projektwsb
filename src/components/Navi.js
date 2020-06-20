@@ -12,7 +12,7 @@ const Navi = () => {
       <nav className="notfixed">
         <div>
         <NavLink  to="/">
-          <img src={Logo} alt="Paper unicorn" />
+          <img className="small" src={Logo} alt="Paper unicorn" />
           </NavLink>
           <ul className="right">
           

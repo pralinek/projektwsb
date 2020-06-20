@@ -19,3 +19,7 @@ header{
     background-image: linear-gradient(to bottom left,#141e30, #243b55); 
 }
 
+.small{
+    height: 3rem;
+    width: auto;
+}
